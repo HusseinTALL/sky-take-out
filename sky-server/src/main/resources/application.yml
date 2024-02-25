@@ -20,12 +20,12 @@ mybatis:
   configuration:
     #开启驼峰命名
     map-underscore-to-camel-case: true
-
+# trace > debug > info > warn > error
 logging:
   level:
     com:
       sky:
-        mapper: debug
+        mapper: trace
         service: info
         controller: info
 
